@@ -48,7 +48,8 @@ android {
 
 dependencies {
     implementation("org.jsoup:jsoup:1.14.3")
-    
+    implementation("com.eclipsesource.j2v8:j2v8:6.2.1@aar")
+
     implementation("androidx.core:core-ktx:1.6.0")
     implementation("androidx.appcompat:appcompat:1.3.1")
     implementation("com.google.android.material:material:1.4.0")
